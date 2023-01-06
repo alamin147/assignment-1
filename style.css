@@ -70,6 +70,7 @@ main{
 .failure{
     margin-top: 70px;
     display: flex;
+    margin-bottom: 75px;
 }
 
 
@@ -112,5 +113,6 @@ ul {
   }
   
   ul li:before {
-    content: '✓';
+    content: '✓ ';
+    color: green;
   }
