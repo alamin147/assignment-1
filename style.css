@@ -116,3 +116,23 @@ ul {
     content: '✓ ';
     color: green;
   }
+
+
+
+  /* ---------------section of my plan---------------*/
+
+
+.plan-top-head{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-bottom: 20px;
+}
+
+
+.sub-plan{
+    display: flex;
+    margin-left: 720px;
+    justify-content: space-around;
+}
