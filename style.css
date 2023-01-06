@@ -1,6 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+
+    /* debugging */
+    /* border: 1px solid red; */
 }
 
 
@@ -15,9 +18,10 @@
 
 /* left side img */
 .img-header{
-    padding-left: 340px;
-    padding-top: 170px;
+    padding-left: 380px;
+    padding-top: 250px;
 }
+
 
 
 /* right side texts */
@@ -34,6 +38,7 @@
    
 }
 
+/* header decription */
 .header-description{
     margin-top: 20px;
     margin-bottom: 15px;
@@ -51,3 +56,61 @@
     color: white;
     border-radius: 6px;
 }
+
+main{
+    max-width: 1140px;
+}
+
+
+
+
+
+
+/* 1st section failure */
+.failure{
+    margin-top: 70px;
+    display: flex;
+}
+
+
+/* img left failure */
+.left-failure{
+
+    padding-left: 400px;
+}
+
+
+
+/* texts group */
+.right-failure{
+    padding-left: 100px;
+    padding-top: 230px;
+    padding-right: 200px;
+}
+
+
+/* right text heading */
+.failure-heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-right: 200px;
+}
+
+
+
+/* right side description */
+.filure-description{
+    font-weight: 400;
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+  }
