@@ -174,6 +174,8 @@ ul {
     margin-top: 30px;
 }
 
+
+
 .video-part{
     padding-left: 140px;
 }
@@ -195,15 +197,80 @@ ul {
 }
 
 
-
 /* gradient part */
 
-.watch{
-    background-image: url("./assets/images/watch.png") ;
-    height: 200px;
-    width: 700px;
-    background-size: cover;
-    background-position: center;
-    margin-left: 550px;
+
+.container{
+    background: url("./assets/images/watch.png");
+    color: white;
+    position: relative;
+    height:260px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 500px;   
+    margin-bottom: 200px;                   
 }
 
+.color-overlay{
+    background: linear-gradient(to left , blue, red);
+    width:100%;
+    height: 100%;
+   opacity: .4;
+   position: absolute;
+}
+
+.gradient-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-right: 300px;
+    margin-bottom: 70px;
+    color: white;
+}
+
+
+.gradient-button{
+    position: absolute;
+    margin-right: 500px;
+    margin-top: 110px;
+
+}
+
+
+
+/* footer part */
+
+
+.footer{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height:30vh;
+    color: white;
+    padding-top: 100px;
+}
+
+
+.left-footer{
+    width: 50%;
+    margin-left: 200px;
+}
+
+
+
+.footer-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+.footer-des{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-mail{
+    margin-bottom: 7px;
+}
