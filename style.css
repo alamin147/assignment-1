@@ -122,6 +122,12 @@ ul {
   /* ---------------section of my plan---------------*/
 
 
+.my-plan{
+    margin-bottom: 60px;
+}
+
+
+
 .plan-top-head{
     text-align: center;
     font-weight: 700;
@@ -133,6 +139,58 @@ ul {
 
 .sub-plan{
     display: flex;
-    margin-left: 720px;
-    justify-content: space-around;
+    margin-left: 650px;
+}
+
+.plan{
+    margin-right: 80px;
+    text-align: center;
+}
+
+.plan-heading{
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+
+
+/* for video section */
+
+
+
+.video-section{
+    display: flex;
+    margin-left: 450px;
+    margin-bottom: 60px;
+}
+
+.video{
+    height: 200px;
+    width: 400px;
+
+}
+
+.space{
+    margin-top: 30px;
+}
+
+.video-part{
+    padding-left: 140px;
+    margin-top: px ;
+}
+
+
+.video-title{
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+.video-list{
+    padding-top: 82px;
+    font-size: 20px;
+    padding-left: 30px;
 }
