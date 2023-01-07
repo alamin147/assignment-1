@@ -123,7 +123,7 @@ ul {
 
 
 .my-plan{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 
@@ -133,7 +133,7 @@ ul {
     font-weight: 700;
     font-size: 30px;
     margin-left: 800px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 
@@ -161,7 +161,7 @@ ul {
 .video-section{
     display: flex;
     margin-left: 450px;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
 }
 
 .video{
@@ -176,7 +176,6 @@ ul {
 
 .video-part{
     padding-left: 140px;
-    margin-top: px ;
 }
 
 
@@ -194,3 +193,17 @@ ul {
     font-size: 20px;
     padding-left: 30px;
 }
+
+
+
+/* gradient part */
+
+.watch{
+    background-image: url("./assets/images/watch.png") ;
+    height: 200px;
+    width: 700px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 550px;
+}
+
