@@ -192,7 +192,7 @@ ul {
 
 .video-list{
     padding-top: 82px;
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 30px;
 }
 
@@ -270,6 +270,7 @@ ul {
 .footer-des{
     font-size: 20px;
     margin-bottom: 22px;
+    text-shadow: none;
 }
 
 .footer-mail{
