@@ -249,12 +249,13 @@ ul {
     height:30vh;
     color: white;
     padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 
 .left-footer{
     width: 50%;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 
@@ -268,9 +269,56 @@ ul {
 
 .footer-des{
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .footer-mail{
-    margin-bottom: 7px;
+    margin-bottom: 14px;
+}
+
+
+.footer-phone{
+    margin-bottom: 25px;
+}
+
+.icons{
+    display: flex;
+}
+
+.foot-icon{
+    margin-right: 15px;
+}
+
+
+.form{
+    width:50%;
+    margin-left: 100px;
+}
+
+.foot-sub{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.foot-field{
+    height: 50px;
+    width: 300px;
+    text-align: left;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: small;
+    background-color: black;
+    border: 1px solid white;
+    margin-bottom: 15px;
+}
+
+
+.foot-btn{
+    height: 50px;
+    width: 140px;
+    background-color: white;
+    border: none;
+    color: #F15822;
+    border-radius: 6px;
 }
